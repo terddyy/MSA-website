@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="data:," />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
       </head>
       <body className={`${displayFont.variable} ${bodyFont.variable} antialiased`}>
         <div className="flex min-h-screen flex-col">
