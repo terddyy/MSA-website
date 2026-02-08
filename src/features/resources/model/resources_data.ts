@@ -133,5 +133,26 @@ export const resources: ResourceItem[] = [
       "Agent patterns and lifecycle",
       "Responsible AI principles and best practices",
     ],
+  },
+  {
+    slug: "microsoft-learn-student-hub-certifications",
+    title: "Microsoft Learn Student Hub — Student certifications",
+    description:
+      "Explore certification paths, exam prep, and student resources to earn Microsoft certifications.",
+    category: "Cloud",
+    level: "Beginner",
+    product: "Microsoft Learn",
+    icon_label: "SC",
+    accent: "azure",
+    cta_label: "Open on Microsoft Learn",
+    url: "https://learn.microsoft.com/training/student-hub/certifications?WT.mc_id=academic-88008-leestott&wt.mc_id=studentamb_487799",
+    featured: true,
+    why: "Central hub to discover certification paths, exam preparation, and student offers.",
+    who: "Students preparing for certifications or seeking validated skills and career readiness.",
+    learn: [
+      "Find role-based certification paths and study plans",
+      "Access exam prep resources and practice tests",
+      "Discover student discounts, offers, and next steps for career readiness",
+    ],
   }
 ];
