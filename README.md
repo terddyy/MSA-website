@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Microsoft Learning Resource Hub
 
-## Getting Started
+Production-ready MVP for a Microsoft learning resource hub built with Next.js (App Router) and Tailwind CSS.
 
-First, run the development server:
+## Getting started
+
+Install dependencies and start the dev server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Content updates
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Resource content is stored in a single data file:
 
-## Learn More
+- `src/features/resources/model/resources_data.ts`
 
-To learn more about Next.js, take a look at the following resources:
+Replace any `https://learn.microsoft.com/PLACEHOLDER` URLs with official Microsoft links when ready.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Structure overview
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `src/app`: App Router pages (landing, resources, resource detail, about)
+- `src/components`: reusable UI components (Button, Card, Badge, Container)
+- `src/features`: feature-based MVC structure for resources and home sections
 
-## Deploy on Vercel
+## Commands
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `npm run dev` start the development server
+- `npm run build` build for production
+- `npm run lint` run lint checks
