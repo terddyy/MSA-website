@@ -30,6 +30,19 @@ export default function AboutPage() {
             confidence while preparing to become a Microsoft Learn Student
             Ambassador.
           </p>
+          <p className="text-lg text-slate-600">
+            I founded Zentari Software and grew it to six-figure monthly
+            revenue. View my portfolio at{' '}
+            <a
+              href="https://terd.zentariph.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 underline"
+            >
+              terd.zentariph.com
+            </a>
+            .
+          </p>
           <Button href="/resources" variant="secondary">
             Explore curated resources
           </Button>
