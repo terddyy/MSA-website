@@ -112,5 +112,26 @@ export const resources: ResourceItem[] = [
       "Program benefits and resources",
       "Paths to scale responsibly",
     ],
+  },
+  {
+    slug: "generative-ai-and-agents",
+    title: "Introduction to generative AI and agents",
+    description:
+      "Learn the fundamentals of generative AI and agent patterns with practical examples on Microsoft Learn.",
+    category: "AI & Data",
+    level: "Beginner",
+    product: "Microsoft Learn",
+    icon_label: "GA",
+    accent: "ai",
+    cta_label: "Open on Microsoft Learn",
+    url: "https://learn.microsoft.com/training/modules/fundamentals-generative-ai/?wt.mc_id=studentamb_487799",
+    featured: true,
+    why: "Covers core generative AI concepts and how agents work — a practical starting point for students.",
+    who: "Students exploring generative AI, agents, and prompt engineering.",
+    learn: [
+      "Core generative AI concepts",
+      "Agent patterns and lifecycle",
+      "Responsible AI principles and best practices",
+    ],
   }
 ];
